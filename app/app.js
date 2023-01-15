@@ -5,11 +5,11 @@ do {
 }while (number <= 20);
 
 
-var negativeNumber = 0;
+var positiveNumber = 0;
 do {
     var num = Number(prompt('Пожалуюста ведите число'))
     if (num >= 0) {
-        negativeNumber += num
+        positiveNumber += num
     }
 }while (num >= 0)
-console.log('Сумма чисел - ' + negativeNumber);
+console.log('Сумма чисел - ' + positiveNumber);
