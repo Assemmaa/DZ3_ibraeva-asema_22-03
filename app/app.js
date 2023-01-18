@@ -13,3 +13,5 @@ do {
     }
 }while (num >= 0)
 console.log('Сумма чисел - ' + positiveNumber);
+
+
